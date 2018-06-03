@@ -66,11 +66,9 @@ header {
   background-repeat: no-repeat; }
   .features .content {
     padding: 130px 0; }
-    .features .content .img_wrapper {
-      width: 65px;
-      margin: 0 auto; }
-      .features .content .img_wrapper img {
-        margin: 23px 0; }
+    .features .content img {
+      margin: 23px 0;
+      max-width: 65px; }
     .features .content .text_wrapper {
       margin-top: 20px; }
 
@@ -84,5 +82,22 @@ header {
       color: #fb8686; }
     .descr .content .text_wrapper {
       width: 31rem; }
+
+.clients {
+  background-image: url("../img/BG_client.png");
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .clients .content {
+    padding: 95px 0; }
+    .clients .content img {
+      max-width: 65px;
+      margin-bottom: 12px; }
+    .clients .content .text_wrapper {
+      width: 21rem;
+      padding: 0 21px; }
+  .clients .logos img {
+    max-width: 5rem;
+    max-height: 56px;
+    margin-top: 45px; }
 
 /*# sourceMappingURL=style.css.map */

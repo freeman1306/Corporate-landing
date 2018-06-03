@@ -87,12 +87,9 @@ header {
     background-repeat: no-repeat;
     .content {
         padding: 130px 0;
-        .img_wrapper {
-            width: 65px;
-            margin: 0 auto;
-            img {
-                margin: 23px 0;
-            }
+        img {
+            margin: 23px 0;
+            max-width: 65px;
         }
         .text_wrapper {
             margin-top: 20px;
@@ -111,6 +108,30 @@ header {
         }
         .text_wrapper {
             width: 31rem;
+        }
+    }
+}
+
+.clients {
+    background-image: url('../img/BG_client.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    .content {
+        padding: 95px 0;
+        img {
+            max-width: 65px;
+            margin-bottom: 12px;
+        }
+        .text_wrapper {
+            width: 21rem;
+            padding: 0 21px;
+        }
+    }
+    .logos {
+        img {
+            max-width: 5rem;
+            max-height: 56px;
+            margin-top: 45px;
         }
     }
 }
