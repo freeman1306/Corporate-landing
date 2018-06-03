@@ -1,5 +1,55 @@
+body {
+    font-family: 'Exo', sans-serif;
+}
+
+.btn_try {
+    a {
+        padding: 14px 50px;
+        background-color: #ff6d6d;
+        border-radius: 5px;
+        color: #ffffff;
+    }
+}
+
+a {
+    text-decoration: none;
+    &:hover {
+        text-decoration: none;
+    }
+}
+
 header {
     background-image: url('../img/bg_header.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    h1 {
+        font-family: 'Exo', sans-serif;
+        font-weight: 100;
+        font-size: 60px;
+    }
+    .h_content {
+        padding: 220px 0;
+    }
+    .btn_play {
+        a {
+            color: #8185a3;
+        }
+        font-size: 60px;
+        padding: 36px 0;
+        color: #000;
+    }
+    small {
+        font-size: 14px;
+        color: #777779;
+        ;
+    }
+}
+
+.design {
+    background-image: url('../img/des_bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    .content {
+        padding: 165px 0;
+    }
 }
