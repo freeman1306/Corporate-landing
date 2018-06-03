@@ -56,4 +56,15 @@ header {
     .design .content span {
       color: #fb8686; }
 
+.features {
+  background-image: url("../img/BG.png");
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .features .content {
+    padding: 130px 0; }
+    .features .content img {
+      margin: 23px 0; }
+    .features .content .text_wrapper {
+      margin-top: 20px; }
+
 /*# sourceMappingURL=style.css.map */

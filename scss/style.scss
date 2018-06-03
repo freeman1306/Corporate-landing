@@ -75,3 +75,18 @@ header {
         }
     }
 }
+
+.features {
+    background-image: url('../img/BG.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    .content {
+        padding: 130px 0;
+        img {
+            margin: 23px 0;
+        }
+        .text_wrapper {
+            margin-top: 20px;
+        }
+    }
+}
