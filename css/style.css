@@ -100,4 +100,15 @@ header {
     max-height: 56px;
     margin-top: 45px; }
 
+.browser {
+  background-color: #f6f5f3; }
+  .browser .content {
+    padding-top: 100px; }
+    .browser .content img {
+      max-width: 761px; }
+    .browser .content .text_wrapper {
+      padding: 0 15rem;
+      margin-top: 2rem;
+      margin-bottom: 5rem; }
+
 /*# sourceMappingURL=style.css.map */
