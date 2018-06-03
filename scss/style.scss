@@ -18,6 +18,19 @@ a {
     }
 }
 
+h2 {
+    font-size: 40px;
+    margin-bottom: 45px;
+    margin: 10px 0;
+}
+
+.text_wrapper {
+    color: #717171;
+    font-weight: 500;
+    margin-top: 3rem;
+    line-height: 26px;
+}
+
 header {
     background-image: url('../img/bg_header.jpg');
     background-repeat: no-repeat;
@@ -45,11 +58,20 @@ header {
     }
 }
 
+.red_text {
+    color: #fb8686;
+    font-weight: 500;
+}
+
 .design {
     background-image: url('../img/des_bg.png');
     background-size: cover;
     background-repeat: no-repeat;
     .content {
         padding: 165px 0;
+        span {
+            color: #fb8686;
+            ;
+        }
     }
 }
