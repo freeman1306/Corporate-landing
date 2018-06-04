@@ -29,6 +29,8 @@ h2 {
     font-weight: 500;
     margin-top: 3rem;
     line-height: 26px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 img {
@@ -93,6 +95,7 @@ header {
         }
         .text_wrapper {
             margin-top: 20px;
+            max-width: 34rem;
         }
     }
 }
@@ -101,6 +104,21 @@ header {
     background-image: url('../img/descr_bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    @media only screen and (max-width: 992px) {
+        h2 {
+            text-align: center;
+            text-shadow: 2px 1px 5px #f6f6f6;
+        }
+        .red_text {
+            color: #fff1ff;
+        }
+        .text_wrapper {
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            text-shadow: 1px 0px 6px #f6f6f6;
+        }
+    }
     .content {
         padding: 100px 0;
         span {
@@ -118,13 +136,12 @@ header {
     background-repeat: no-repeat;
     .content {
         padding: 95px 0;
+        h5 {
+            color: #ffffff;
+        }
         img {
             max-width: 65px;
             margin-bottom: 12px;
-        }
-        .text_wrapper {
-            width: 21rem;
-            padding: 0 21px;
         }
     }
     .logos {
@@ -144,7 +161,7 @@ header {
             max-width: 761px;
         }
         .text_wrapper {
-            padding: 0 15rem;
+            max-width: 45rem;
             margin-top: 2rem;
             margin-bottom: 5rem;
         }
@@ -157,19 +174,32 @@ header {
         padding: 90px 0;
         h2 {
             color: #ffffff;
+            margin-bottom: 6rem;
         }
-        .wrapper {
-            color: #ffffff;
+        @media only screen and (max-width: 992px) {
+            .btn_wrapper {
+                margin-top: 4rem;
+            }
+        }
+        .btn_wrapper {
+            max-width: 13rem;
+            margin-left: auto;
+            margin-right: auto;
             position: relative;
-            &:before {
-                content: '';
+            .wrapper {
+                color: #ffffff;
                 position: absolute;
-                background-image: url('../img/ARROW.png');
-                background-repeat: no-repeat;
-                background-size: contain;
-                width: 3rem;
-                height: 3rem;
-                right: 10rem;
+                top: -4rem;
+                &:before {
+                    content: '';
+                    position: absolute;
+                    background-image: url('../img/ARROW.png');
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    width: 3rem;
+                    height: 3rem;
+                    right: 10rem;
+                }
             }
         }
         .form {
@@ -178,6 +208,8 @@ header {
                 border-radius: 5px;
                 background-color: #464c77;
                 border: 1px solid #a8aabc;
+                color: #fff;
+                margin-bottom: 3rem;
                 &::-webkit-input-placeholder {
                     color: #f6f5f3;
                 }
@@ -204,6 +236,11 @@ footer {
     .content {
         padding: 80px 0;
     }
+    .text_wrapper {
+        @media only screen and (max-width: 992px) {
+            font-size: 13px;
+        }
+    }
     h5 {
         margin-top: 1rem;
     }
@@ -218,6 +255,9 @@ footer {
             a {
                 color: #717171;
                 text-decoration: none;
+                @media only screen and (max-width: 992px) {
+                    font-size: 13px;
+                }
                 &:hover {
                     color: #717171;
                 }
