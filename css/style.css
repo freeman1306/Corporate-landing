@@ -95,7 +95,7 @@ header {
     .descr .content span {
       color: #fb8686; }
     .descr .content .text_wrapper {
-      width: 31rem; }
+      width: 100%; }
 
 .clients {
   background-image: url("../img/BG_client.png");
@@ -108,10 +108,13 @@ header {
     .clients .content img {
       max-width: 65px;
       margin-bottom: 12px; }
-  .clients .logos img {
-    max-width: 5rem;
-    max-height: 56px;
-    margin-top: 45px; }
+  .clients .logos {
+    flex-wrap: wrap; }
+    .clients .logos img {
+      max-width: 5rem;
+      max-height: 56px;
+      margin-top: 45px;
+      margin-right: 12%; }
 
 .browser {
   background-color: #f6f5f3; }

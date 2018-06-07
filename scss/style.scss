@@ -125,7 +125,7 @@ header {
             color: #fb8686;
         }
         .text_wrapper {
-            width: 31rem;
+            width: 100%;
         }
     }
 }
@@ -145,10 +145,12 @@ header {
         }
     }
     .logos {
+        flex-wrap: wrap;
         img {
             max-width: 5rem;
             max-height: 56px;
             margin-top: 45px;
+            margin-right: 12%;
         }
     }
 }

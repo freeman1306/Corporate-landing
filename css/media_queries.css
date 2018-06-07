@@ -16,7 +16,7 @@
     }
     .clients .text_wrapper {
         margin-bottom: 6rem;
-        width: 32rem;
+        width: 100%;
     }
     .descr .red_text {
         color: #fff1ff;
@@ -30,10 +30,24 @@
     .try .content .btn_wrapper {
         margin-top: 4rem;
     }
-    footer .text_wrapper {
+    /* footer .text_wrapper {
         font-size: 13px;
     }
     footer ul li a {
         font-size: 13px;
+    } */
+}
+
+@media screen and (max-width:320px) {
+    .wrapper_for_xs {
+        display: flex;
+        width: 100%;
+        margin-top: 2em;
+    }
+    .wrapper_for_xs:nth-child(1) {
+        margin-left: 7%;
+    }
+    .wrapper_for_xs:nth-child(2) {
+        margin-left: 7%;
     }
 }
