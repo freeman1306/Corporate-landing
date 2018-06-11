@@ -29,23 +29,23 @@ img {
   width: 100%;
   height: auto; }
 
-header {
+.main {
   background-image: url("../img/bg_header.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
-  header h1 {
+  .main h1 {
     font-family: 'Exo', sans-serif;
     font-weight: 100;
     font-size: 60px; }
-  header .h_content {
+  .main .h_content {
     padding: 220px 0; }
-  header .btn_play {
+  .main .btn_play {
     font-size: 60px;
     padding: 36px 0;
     color: #000; }
-    header .btn_play a {
+    .main .btn_play a {
       color: #8185a3; }
-  header small {
+  .main small {
     font-size: 14px;
     color: #777779; }
 
